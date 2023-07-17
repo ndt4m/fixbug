@@ -9,7 +9,7 @@ import facebook.GetData;
 import facebook.user.User;
 
 public class RecordUser extends PostRequest {
-
+	String api_key = "appfpkYiYDZtMWJhA";
 	@Override
 	public String reformatData() {
 		User userFb = new User("me?fields=id%2Cname&access_token=");
